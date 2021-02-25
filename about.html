@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>CVR College of Engg</p>
+  <h1>Mission of the Institute</h1>
+  <p>To excel in providing quality education at under graduate and graduate levels. 
+
+To encourage research and innovation.
+
+To provide infrastructure and facilities to meet the latest technological needs.
+
+To establish Centres of Excellence through active interaction with industry.
+
+To nurture students towards holistic development with human values and ethics.
+ 
+
+ </p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="dean.jpg" alt="Dean" style="width:100%">
+      <div class="container">
+        <h2>Prof. K.Lal Kishore</h2>
+        <p class="title">Dean,research </p>
+        <p>Ph.D, SMIEEE, FIETE, FIE, LMISTE, LMISHM</p>
+        <p>lalkishore@cvr.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="prince.jpg" alt="prince" style="width:100%">
+      <div class="container">
+        <h2>Dr. Nayanathara K Sattiraju</h2>
+        <p class="title">Principal</p>
+        <p>p.Hd</p>
+        <p>tara@cvr.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="founder.jpg" alt="founder" style="width:100%">
+      <div class="container">
+        <h2>Raghava Cherabuddi</h2>
+        <p class="title">Designer</p>
+        <p>chairman</p>
+        <p>raghava@cvr.ac.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="contact.html" target="_blank">CONTACT US</a><BR><BR>
+  <p>To be a part of cvr family do register now</p>
+<a href="regis.html" target="_blank">REGISTER</a>
+</body>
+</html>

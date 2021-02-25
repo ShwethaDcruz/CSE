@@ -1,0 +1,60 @@
+body{
+    background-color : rgb(198,226,270);
+}
+.header{
+    background-color: bisque;
+    padding:40px;
+    height:100px;
+}
+
+.header-logo{
+    font-size: 36px;
+    float : left;
+}
+.header-list li{
+    list-style:none;
+    float:left;
+    font-size: 20px;
+    padding: 33px 20px;
+
+
+}
+
+.hello{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(196, 35, 123);
+}
+
+.footer{
+    background-color: #2f5167;
+    font-size : 20px;
+    padding: 40px;
+}
+
+.footer-list li{
+    padding-bottom: 40px;
+    background-color: #2f5167;
+    
+}
+
+
+li{
+    list-style: none;
+    float:left;
+    padding:40px;
+}
+
+.contents-item img{
+    float:left;
+    width:100px;
+    height:100px;
+
+}
+.section-title{
+    border-bottom: 2px;
+    border-color: cyan;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
